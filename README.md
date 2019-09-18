@@ -14,20 +14,20 @@ Design and execute a method to predict employees leaving the company
 
 We got employee data from a few companies. We have data about all employees who joined from 2011/01/24 to 2015/12/13. For each employee, we also know if they are still at the company as of 2015/12/13 or they have quit. Beside that, we have general info about the employee, such as average salary during her tenure, department, and years of experience. As said above, the goal is to predict employee retention and understand its main drivers
 
-`employee_retention.txt` : comprehensive information about employees.\
+`employee_retention.txt` : comprehensive information about employees.
 
- Columns:\
+ Columns:
  
-`employee_id` : id of the employee. Unique by employee per company\
+`employee_id` : id of the employee. Unique by employee per company
 
-`company_id` : company id.\
+`company_id` : company id.
 
-`dept` : employee department\
+`dept` : employee department
 
-`seniority` : number of yrs of work experience when hired\
+`seniority` : number of yrs of work experience when hired
 
-`salary` : average yearly salary of the employee during her tenure within the company\
+`salary` : average yearly salary of the employee during her tenure within the company
 
-`join_date` : when the employee joined the company, it can only be between 2011/01/24 and 2015/12/13\
+`join_date` : when the employee joined the company, it can only be between 2011/01/24 and 2015/12/13
 
 `quit_date` : when the employee left her job (if she is still employed as of 2015/12/13, this field is NA)
